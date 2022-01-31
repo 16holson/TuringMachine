@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# getfile retrieves the student's executable and installs it
+# into bin/ for execution
+
+cp ../../HelloWorld.class ../../bin/

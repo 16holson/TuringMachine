@@ -1,0 +1,21 @@
+# Palindrome
+1 Start, a, _, R, 2
+1 Start, b, _, R, 5
+1 Start, _, _, R, 8 Halt
+2, b, b, R, 2
+2, a, a, R, 2
+2, _, _, L, 3
+3, a, _, L, 4
+3, _, _, R, 8 Halt
+4, a, a, L, 4
+4, b, b, L, 4
+4, _, _, R, 1 Start
+5, a, a, R, 5
+5, b, b, R, 5
+5, _, _, L, 6
+6, b, _, L, 7
+6, _, _, R, 8 Halt
+7, a, a, L, 7
+7, b, b, L, 7
+7, _, _, R, 1 Start
+8 Halt

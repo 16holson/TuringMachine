@@ -1,0 +1,7 @@
+# double a, from text, p. 446
+1 Start, _, _, R, 1 Start
+1 Start, b, b, R, 1 Start
+1 Start, a, a, R, 2
+2, a, a, R, Halt 3
+2, b, b, R, 1 Start
+Halt 3
